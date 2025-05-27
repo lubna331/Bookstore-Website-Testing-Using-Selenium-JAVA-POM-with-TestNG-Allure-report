@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/Rokomari_Test_POM/src/test/java/testcases">
+        <classes><class name="testcases.TestAuthorPage">
+            <methods>
+                <include name="testHover"/></methods>
+        </class>
+            <class name="testcases.TestCartPage">
+                <methods>
+                    <include name="setCartPage"/>
+                </methods>
+            </class>
+            <class name="testcases.TestHomePage">
+                <methods>
+                    <include name="btnPresent"/>
+                </methods>
+            </class>
+            <class name="testcases.TestLoginPage">
+                <methods>
+                    <include name="signupWithGoogle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
