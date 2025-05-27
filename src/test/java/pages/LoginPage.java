@@ -13,8 +13,8 @@ public class LoginPage extends BasePage{
 
     public By login_btn = By.xpath("//button[normalize-space()='Login']");
 
-    public String user_email = "m.lubna616@gmail.com";
-    public String user_pass = "616L&19450622";
+    public String user_email = "ENTER YOUR VALID EMAIL";
+    public String user_pass = "ENTER YOUR VALID PASSWORD";
 
     public void loginWithGoogleFlow() throws InterruptedException {
             clickOnElement(googleBtn);
