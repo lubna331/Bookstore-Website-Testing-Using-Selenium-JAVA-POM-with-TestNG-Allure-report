@@ -2,11 +2,11 @@
 
 > ⚠️ **Note:** If you want to run this project on your local machine, you must provide your **valid email and password** in the `LoginPage.java` file for the Google login flow to work correctly.
 
-## 📌 Overview
+## Overview
 
 This is a Selenium WebDriver automation framework built for end-to-end testing of a Bookstore(Rokomari) web application. The project uses the Page Object Model (POM) for better structure, reusability, and maintainability of test cases.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Java
 - Selenium WebDriver
@@ -14,20 +14,20 @@ This is a Selenium WebDriver automation framework built for end-to-end testing o
 - Allure Reporting
 - Maven
 
-## 🧰 Features and Functionalities Covered
+## Features and Functionalities Covered
 
-- ✅ Page Object Model (POM) Design Pattern
-- ✅ Google Login Automation
-- ✅ Dynamic Waits and Timeout Handling
-- ✅ Element Scrolling and Hover Actions
-- ✅ Window Handling (Switching between Tabs)
-- ✅ Dropdown Selection by Visible Text
-- ✅ Dropdown Selection by Value
-- ✅ Handling SVG elements and hidden popups
-- ✅ End-to-End Flow: Home → Login → Select Author → Select Product → Add to Cart → Checkout → Logout
-- ✅ Allure Report Generation via `testng.xml`
+- Page Object Model (POM) Design Pattern
+- Google Login Automation
+- Dynamic Waits and Timeout Handling
+- Element Scrolling and Hover Actions
+- Window Handling (Switching between Tabs)
+- Dropdown Selection by Visible Text
+- Dropdown Selection by Value
+- Handling SVG elements and hidden popups
+- End-to-End Flow: Home → Login → Select Author → Select Product → Add to Cart → Checkout → Logout
+- Allure Report Generation via `testng.xml`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -41,7 +41,7 @@ src/
 testng.xml                  # Test suite file
 ```
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
 2. Add your valid credentials in `LoginPage.java`
@@ -50,7 +50,7 @@ testng.xml                  # Test suite file
    mvn clean test
    ```
 
-## 📊 Reporting
+## Reporting
 
 Allure reporting is integrated. To view the report:
 
@@ -58,10 +58,10 @@ Allure reporting is integrated. To view the report:
 allure open .\allure-report\
 ```
 
-## 🤝 Contributions
+## Contributions
 
 Feel free to fork and contribute.
 
-## 👩‍💻 Author
+## Author
 
-Lubna (Test Automation Engineer)
+Lubna
